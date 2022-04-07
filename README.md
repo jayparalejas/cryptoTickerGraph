@@ -6,6 +6,9 @@ Modified version of https://github.com/dr-mod/zero-btc-screen
 
 Follow all setup instructions in this repo before cloning this repo
 
+Install an additional dependency: 
+pip3 install dataparser
+
 Changes include
 -   Use coingecko to get price information - This API has more options than the previous
 -   Multiple Tokens - see main.py line 21 & 34 to modify token list
